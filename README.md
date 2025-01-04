@@ -15,4 +15,7 @@ Values between 0 and 1
 
 {t:{$current,$min,$max}}
 {w:{$current,$min,$max}}
-{p:[sunny,partlycloudy,cloudy,rain,intenserain,snow]}
+{p:{$current,$worst}}
+
+perciptation enums:
+sunny,partlycloudy,cloudy,rain,intenseRain,snow,intenseSnow
